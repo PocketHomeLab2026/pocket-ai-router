@@ -1,5 +1,7 @@
 # Pocket AI Router
 
+[![test](https://github.com/PocketHomeLab2026/pocket-ai-router/actions/workflows/test.yml/badge.svg)](https://github.com/PocketHomeLab2026/pocket-ai-router/actions/workflows/test.yml)
+
 A small, dependency-free router for keeping multiple AI providers observable while choosing which providers should receive a task. It supports:
 
 - concurrent health checks for every registered provider;
@@ -23,4 +25,3 @@ const result = await router.route(
 ```
 
 License: MIT.
-
