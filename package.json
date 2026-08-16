@@ -1,0 +1,16 @@
+{
+  "name": "pocket-ai-router",
+  "version": "0.1.0",
+  "description": "Privacy-first multi-provider AI router with deterministic quality gates",
+  "type": "module",
+  "main": "src/router.js",
+  "exports": "./src/router.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
+
